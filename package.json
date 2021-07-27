@@ -1,0 +1,17 @@
+{
+  "name": "forkengine-boot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/endrealm/forkengine-boot",
+  "author": "gerolmed <werwolf420@yahoo.de>",
+  "license": "MIT",
+  "dependencies": {
+    "forkengine-core": "1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "start": "echo hey"
+  }
+}
