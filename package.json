@@ -6,12 +6,19 @@
   "author": "gerolmed <werwolf420@yahoo.de>",
   "license": "MIT",
   "dependencies": {
-    "forkengine-core": "1.0.0"
+    "forkengine-core": "1.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "typescript": "^4.3.5"
+    "@types/react": "^17.0.15",
+    "@types/react-dom": "^17.0.9",
+    "electron": "^13.1.7",
+    "electron-is-dev": "^2.0.0",
+    "nodemon": "^2.0.12"
   },
   "scripts": {
-    "start": "echo hey"
+    "start:dev": "nodemon",
+    "run:dev": "webpack --config ./webpack.electron.js && electron ./dist/main.js"    
   }
 }
