@@ -11,7 +11,8 @@ const createWindow = (): void => {
             contextIsolation: false
         },
     });
-    console.log(isDev);
+    win.maximize()
+    console.log("Developer mode", isDev);
     win.loadURL(
         isDev
             ? "http://localhost:9000"
